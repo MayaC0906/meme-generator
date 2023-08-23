@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles/styles.css">
+    <title>Memes Generator</title>
+</head>
+
+<body onload="onInIt()" class="main-layout grid">
+
+    <header class="main-header flex space-between align-center">
+        <div class="logo">Memes Generator</div>
+        <nav class="main-nav-container">
+            <ul class="main-nav flex clean-list">
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">memes</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="meme grid">
+
+        <section class="canvas-container">
+            <canvas width="450" height="450"> </canvas>
+        </section>
+
+        <section class="change-canvas">
+            <input oninput="onSetLineText(this.value)" class="meme-txt" type="text" value="enter your text">
+            <input onchange="onSetColor(this.value)" type="color" name="color" id="" value="#000000">
+
+        </section>
+
+
+
+    </section>
+
+
+    <section class="gallery-container">
+        <section class="gallery">
+        </section>
+    </section>
+<script src="js/services/meme.service.js"></script>
+<script src="js/services/gallery.servise.js"></script>
+<script src="js/controllers/meme.controller.js"></script>
+<script src="js/controllers/gallery.controller.js"></script>
+</body>
+
+</html>

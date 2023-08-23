@@ -1,0 +1,42 @@
+.meme {
+grid-template-columns: 1fr 1fr;
+}
+
+.meme .canvas-container {
+    /* grid-column: 2; */
+    margin: 20px auto;
+    width: 40vw;
+}
+
+.meme .canvas-container canvas {
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* .meme .change-canvas {
+    grid-column: 3;
+} */
+
+/* .meme .change-canvas {
+gap: 20px;
+justify-content: space-evenly;
+}
+
+.meme .change-canvas :first-child {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(240, 255, 255, 0.544);
+    text-align: center;
+}
+
+.meme .meme-txt {
+    width: 200px;
+} */
+
+/* .meme button {
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(240, 255, 255, 0.544);
+    text-align: center;
+} */

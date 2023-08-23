@@ -1,0 +1,9 @@
+.main-layout {
+    grid-auto-flow: row;
+}
+
+.gallery {
+        columns: 4 220px;
+}
+
+
